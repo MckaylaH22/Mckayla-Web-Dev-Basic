@@ -14,7 +14,6 @@ Assignment 2 Part 1
     <title>Mozilla splash page</title>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <style>
-      /* header and body setup */
 
 
 
@@ -162,7 +161,11 @@ Assignment 2 Part 1
       </div>
 
       <div class="red-panda">
-        <!-- insert picture element -->
+        <picture>
+          <source media="(max-width:600px)"
+          srcset="red-panda-600.jpg">
+          <img src="red-panda-1200.jpg" alt="red panda">
+        </picture>
       </div>
 
     </main>
