@@ -85,3 +85,18 @@ aside p ,aside li{
 footer p{
     font-size: 1.4rem;
 }
+
+a:link{
+    color:#894846;
+}
+a:visited{
+    color:#894846;
+}
+a:hover{
+    text-decoration: none;
+    color: #a66;
+}
+a:active{
+    font-weight: bold;
+    text-shadow: 0 0 20px #AA6622;
+}
