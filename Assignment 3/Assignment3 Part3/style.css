@@ -62,7 +62,7 @@ h1{
 }
 
 h2{
-    font-size: 3.2rem;
+    font-size: 3.0rem;
     letter-spacing: 0.3rem;
 }
 
@@ -99,4 +99,23 @@ a:hover{
 a:active{
     font-weight: bold;
     text-shadow: 0 0 20px #AA6622;
+}
+
+ol, ul{
+    margin: 1.5rem 0;
+}
+ul{
+    list-style: none;
+}
+section ul li::before{
+    float: left;
+    width: 2rem;
+    margin: 0 -1.2em;
+    font-size: 0.9em;
+}
+aside ul li::before{
+    float: left;
+    width: 2rem;
+    margin: 0 -1.2em;
+    font-size: 0.10em;
 }
