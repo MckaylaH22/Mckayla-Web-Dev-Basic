@@ -100,6 +100,11 @@ a:active{
     font-weight: bold;
     text-shadow: 0 0 20px #AA6622;
 }
+a[href*="http"]{
+    background: url("external-link-52.png") no-repeat 100% 50%;
+    background-size: 0.8em 0.8em;
+    padding-right: 1.5em;
+  }
 
 ol, ul{
     margin: 1.5rem 0;
@@ -108,12 +113,14 @@ ul{
     list-style: none;
 }
 section ul li::before{
+    content: "◈";
     float: left;
     width: 2rem;
     margin: 0 -1.2em;
     font-size: 0.9em;
 }
 aside ul li::before{
+    content: "◈";
     float: left;
     width: 2rem;
     margin: 0 -1.2em;
@@ -139,6 +146,6 @@ nav ul li a{
 }
 nav ul li a:hover{
     border: none;
-    background-color: #f29ddc;
+    background-color: #eabbde;
     color: white;
 }
