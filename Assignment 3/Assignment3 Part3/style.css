@@ -4,8 +4,6 @@
     box-sizing: border-box;
   }
 
-
-  
   body {
     margin: 0 auto;
     min-width: 1000px;
@@ -56,13 +54,13 @@ h1,h2{
 }
 
 h1{
-    font-size: 4.5rem;
-    letter-spacing: 0.5rem;
+    font-size: 4.8rem;
+    letter-spacing: 0.4rem;
     text-align: center;
 }
 
 h2{
-    font-size: 3.0rem;
+    font-size: 3.2rem;
     letter-spacing: 0.3rem;
 }
 
@@ -103,7 +101,7 @@ a:active{
 a[href*="http"]{
     background: url("external-link-52.png") no-repeat 100% 50%;
     background-size: 0.8em 0.8em;
-    padding-right: 1.5em;
+    padding-right: 1.2em;
   }
 
 ol, ul{
