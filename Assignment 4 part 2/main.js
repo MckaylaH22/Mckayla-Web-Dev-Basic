@@ -17,13 +17,13 @@ const altTexts = {
     'pic5.jpg': 'Delicious plate of food'
 };
 
-
-
 /* Looping through images */
+imageFilenames.forEach(filename => {
+    const newImage = document.createElement('img');
+    newImage.setAttribute('src', filename); 
+    newImage.setAttribute('alt', altTexts[filename]); 
+    thumbBar.appendChild(newImage); 
+});
 
-const newImage = document.createElement('img');
-newImage.setAttribute('src', xxx);
-newImage.setAttribute('alt', xxx);
-thumbBar.appendChild(newImage);
 
 /* Wiring up the Darken/Lighten button */
