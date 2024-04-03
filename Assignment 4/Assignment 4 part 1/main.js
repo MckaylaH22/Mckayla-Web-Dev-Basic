@@ -16,4 +16,15 @@ let insertX = ['Willy the Goblin', 'Big Daddy', 'Father Christmas'];
 let insertY = ['the soup kitchen', 'Disneyland', 'the White House'];
 let insertZ = ['spontaneously combusted', 'melted into a puddle on the sidewalk', 'turned into a slug and crawled away'];
 
+/*3. EVENT LISTENER AND PARTIAL FUNCTION DEFINITION*/
 
+let newStory = storyText;
+let xItem = randomValueFromArray(insertX);
+let yItem = randomValueFromArray(insertY);
+let zItem = randomValueFromArray(insertZ);
+randomize.addEventListener('click', result);
+
+newStory = newStory.replace('insertx', xItem);
+    newStory = newStory.replace('inserty', yItem);
+    newStory = newStory.replace('insertz', zItem);
+    newStory = newStory.replace('insertx', xItem);
